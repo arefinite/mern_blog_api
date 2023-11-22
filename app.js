@@ -4,6 +4,7 @@ import { userRouter } from "./router/userRouter.js"
 import cookieParser from "cookie-parser"
 import { blogRouter } from "./router/blogRouter.js"
 import { getBlogs } from "./controller/blogController.js"
+import cors from 'cors'
 export const app = express()
 
 app.use(express.json())
